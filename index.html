@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brad's Portfolio</title>
     <link rel="stylesheet" href="./Assets/css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/012e94325c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-banner">
@@ -35,9 +36,26 @@
                 <a href="#experience">Experience</a>
             </li>
             <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
+        <section>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/brad-samuel-251805/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Brad-Sam25" target="_blank">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </nav>
     <main>
         <section class="section-heading">
@@ -45,8 +63,22 @@
                 About Me
             </h2>
             <p>
-                I am a software developer with a recent Certificate in Full Stack Development from Rutgers University. Previously, I have leveraged my political science and psychology background to utilize operative research methods for finding solutions to complex legal issues. In the tech sphere, I look to capitalize on this skill for learning new technologies which will be implemented for a more intuitive user experience on the web. With my newly developed skills in React Js, Javascript, CSS, and responsive web design, my aim is to not only create applications that provide for an impactful user experience but also contribute to a team that makes innovative advancements to web applications. Overall, I am excited to implement my skills as a software developer at a company where I can exhibit my passion, learn, and grow with a quality driven team to master the craft.
+                I am a developer with a recent certificate in full stack developmet from Rutgers University. I would say that I am a an inquisitive individual that is dedicted to not only learning new technologies and framewoks but also solving issues in general. My ambitious nature is always present when making intuitive and engaging web applications regardless of whether I am alone or contributing to a team.
+                <br>
+                When I am not coding, I am most likely drawing photorealistic portraits or reading either a fictional or non-fictional book.
             </p>
+            <h3>Interests</h3>
+            <ul>
+                <li>
+                    listening to all genere's of music
+                </li>
+                <li>
+                    attempting to cook
+                </li>
+                <li>
+                    watching football
+                </li>
+            </ul>
         </section>
         <section class="section-heading">
             <h2>
@@ -57,12 +89,60 @@
             <h2>
                 Experience
             </h2>
+            <h3>
+                Loss Mitigation Specialist
+            </h3>
+            <p>
+                Shellpoint Mortgage Servicing, LLC
+                <br>
+                May 2020 - October 2020
+            </p>
+            <h3>
+                Legal Assistant
+            </h3>
+            <p>
+                RAS Citron
+                <br>
+                December 2019 - May 2020
+            </p>
+            <a class="button" href="">Download CV</a>
+        </section>
+        <section class="section-heading">
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Git</li>
+                <li>ReactJS</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+            </ul>
         </section>
         <section class="section-heading">
             <h2>
                 Contact
             </h2>
         </section>
+        <section class="contact-form">
+            <form id="contact" action="" method="POST"></form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
+                <button class="form-button" type="submit">Send</button>
+        </section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
