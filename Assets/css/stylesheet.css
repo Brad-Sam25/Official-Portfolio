@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header-banner {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.right-side {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+.side-nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(17, 0, 34);
+    padding-top: 20px;
+}
+
+.section-heading {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.about-content {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.experience-content {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.skills-list {
+    font-family: 'Bebas Neue', cursive;
+}
