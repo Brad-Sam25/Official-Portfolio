@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-color: #eee4ec;
+    background-color: #262626;
 }
 
 .header-banner {
@@ -15,6 +15,7 @@ body {
     background-size: cover;
     background-position: center;
     color: #bcafd5;
+    border:2px solid #ac06fa ;
 }
 
 .right-side {
@@ -85,7 +86,7 @@ nav li {
 }
 
 .about-section {
-
+    color: #c0c4cf;
 }
 .about-content {
     font-family: 'Bebas Neue', cursive;
@@ -99,4 +100,14 @@ nav li {
 
 .skills-list {
     font-family: 'Bebas Neue', cursive;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: #c0c4cf ;
+    min-height: 17.1rem;
+    background: #222326;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: -3rem;
 }
