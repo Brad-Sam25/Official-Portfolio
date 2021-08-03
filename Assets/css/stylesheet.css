@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-color: #485063;
+    background-color: #eee4ec;
 }
 
 .header-banner {
@@ -10,7 +10,7 @@ body {
     align-items: center;
     margin-top: -5rem;
     font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
+    font-size: 65px;
     background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url(https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-position: center;
@@ -57,8 +57,27 @@ nav li {
     color: #bcafd5;
 }
 
+.nav-buttons:hover {
+    color: #ac06fa;
+    transition: all 1s ease;
+}
 .socials-container i {
     color: #c0c4cf;
+}
+
+.fa-linkedin:hover {
+    color: #ac06fa;
+    transition: color 1s ease;
+}
+
+.fa-github-alt:hover{
+    color: #ac06fa;
+    transition: color 1s ease;
+}
+
+.fa-envelope:hover {
+    color: #ac06fa;
+    transition: color 1s ease;
 }
 
 .section-heading {
@@ -66,12 +85,12 @@ nav li {
 }
 
 .about-section {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,0.94) 45%, rgba(100,107,196,0.9755252442773985) 100%);
+
 }
 .about-content {
     font-family: 'Bebas Neue', cursive;
-    color: #c0c4cf;
+
+
 }
 
 .experience-content {
