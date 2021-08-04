@@ -83,6 +83,8 @@ nav li {
 
 .section-heading {
     font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    color:#ac06fa;
 }
 
 .about-section {
@@ -90,8 +92,6 @@ nav li {
 }
 .about-content {
     font-family: 'Bebas Neue', cursive;
-
-
 }
 
 .experience-content {
