@@ -103,6 +103,15 @@ nav li {
 
 .skills-list {
     font-family: 'Bebas Neue', cursive;
+    margin-left: 400px;
+    color: #c0c4cf;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
