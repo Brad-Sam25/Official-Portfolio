@@ -100,6 +100,12 @@ nav li {
 .project-container {
     color: #c0c4cf;
     font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+}
+
+.divided-portfolios {
+    margin-right: 150px;
 }
 
 .project-title {
@@ -109,18 +115,29 @@ nav li {
     margin-left: 40px;
 }
 
+.project-button {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: white;
+    padding: 7px 6px 7px 6px;
+    border: 2px solid #ac06fa;
+    border-radius: 5rem;
+}
 
+.project-button:hover {
+    background-color: #6a099765 ;
+    transition: background-color 1s ease;
+}
 
 .skills-list {
     font-family: 'Bebas Neue', cursive;
-    margin: 0px 20px 0px 400px;
+    margin: 0px 20px 0px 200px;
     color: #c0c4cf;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     flex-wrap: wrap;
 }
-
 
 .spaced-icon {
     margin-right: 55px;
