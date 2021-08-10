@@ -9,13 +9,13 @@
     <script src="https://kit.fontawesome.com/012e94325c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header-banner right-side">
+    <header class="header-banner right-side" id="home">
         <h1>
-            Welcome, my name is 
+            Welcome <span class="emoji">👋🏾</span> my name is 
             <br>
             Brad Samuel.
         </h1>
-        <h1>
+        <h1 class="developer">
             I'm a developer based 
             <br>
             in New Jersey
@@ -62,37 +62,38 @@
     <main>
         <section class="about-section">
             <section class="section-heading">
-                <h2>
+                <h2 id="about">
                     About Me
                 </h2>
             </section>
-            <section class="about-content right-side">
+            <section class="about-content right-side section-space">
                 <p>
-                    I am a developer with a recent certificate in full stack developmet from Rutgers University. I would say that I am a an inquisitive individual that is dedicted to not only learning new technologies and framewoks but also solving issues in general. My ambitious nature is always present when making intuitive and engaging web applications regardless of whether I am alone or contributing to a team.
+                    I am a developer with a recent certificate in full stack development from Rutgers University.I also have a Bachelor's degree from Penn State University. I am an inquisitive individual that is dedicated to learning new technologies and frameworks while analyzing and solving issues. My ambitious nature is always present when making intuitive and engaging web applications regardless of whether I am alone or contributing to a team.
                     <br>
-                    When I am not coding, I am most likely drawing photorealistic portraits or reading either a fictional or non-fictional book.
+                    <br>
+                    When I am not coding, I am most likely drawing photorealistic portraits or reading either a fictional or non-fictional book. My current reads are Atomic Habits by James Clear and the graphic novel, Najigahara Holographic by Inio Asano.
                 </p>
-                <h3>Interests</h3>
+                <h3>⚡️Hobbies⚡️</h3>
                 <ul>
                     <li>
-                        listening to all genere's of music
+                        🎵  Experiencing and appreciating all genres of music
                     </li>
                     <li>
-                        attempting to cook
+                        🍽    Being a professional ramen and cereal chef
                     </li>
                     <li>
-                        watching football
+                        🏈    Watching football - go Pats! (although I have never been to New England)
                     </li>
                 </ul>
             </section>
     
         </section>
         <section class="section-heading">
-            <h2>
+            <h2 id="portfolio">
                 Portfolio
             </h2>
         </section>
-        <section class="project-container right-side">
+        <section class="project-container right-side section-space">
             <section class="divided-portfolios">
                 <h3 class="project-title">
                     WatchHub
@@ -107,7 +108,7 @@
                     <strong>Technologies</strong>: Node js, Expressjs, MySQL, Sequelize ORM
                 </p>
                 <br>
-                <a href="https://github.com/nodrognaes/WatchHub" class="project-button">View GitHub Repo</a>    
+                <a href="https://github.com/nodrognaes/WatchHub" class="project-button" target="_blank">View GitHub Repo</a>    
             </section>
             <section class="divided-portfolios">
                 <h3 class="project-title">
@@ -123,7 +124,7 @@
                     <strong>Technologies</strong>: Node js, Expressjs, MySQL, Sequelize ORM
                 </p>
                 <br>
-                <a href="https://github.com/nodrognaes/WatchHub" class="project-button">View GitHub Repo</a>    
+                <a href="https://github.com/nodrognaes/WatchHub" class="project-button" target="_blank">View GitHub Repo</a>    
             </section>
             <section class="divided-portfolios">
                 <h3 class="project-title">
@@ -139,16 +140,16 @@
                     <strong>Technologies</strong>: Node js, Expressjs, MySQL, Sequelize ORM
                 </p>
                 <br>
-                <a href="https://github.com/nodrognaes/WatchHub" class="project-button">View GitHub Repo</a>    
+                <a href="https://github.com/nodrognaes/WatchHub" class="project-button" target="_blank">View GitHub Repo</a>    
             </section>
         </section>
 
         <section class="section-heading">
-            <h2>
+            <h2 id="skills">
                 Skills
             </h2>
         </section>
-        <section >
+        <section class="section-space" >
             <ul class="skills-list">
                 <li><i class="fab fa-html5 fa-5x spaced-icon"></i></li>
                 <li><i class="fab fa-css3-alt fa-5x spaced-icon"></i></li>
@@ -160,29 +161,32 @@
                 <li><img src="./Assets/images/icons8-mysql-logo-150.png" alt="" class="mysql-pic"></li>
             </ul>
         </section>
-        <section class="section-heading">
-            <h2>
+        <section class="section-heading ">
+            <h2 id="contact">
                 Contact
             </h2>
         </section>
-        <section class="contact-form">
-            <form id="contact" action="" method="POST"></form>
+        <section class="contact-form ">
+            <form action="action_page.php">
+
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                <input type="text" id="fname" name="firstname" placeholder="Please enter your  first name...">
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                <input type="text" id="lname" name="lastname" placeholder="Please enter your last name...">
 
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
-                <button class="form-button" type="submit">Send</button>
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Ask me anything, I promise I don't bite..." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer class="right-side">
         <p>
             Copyright Brad Samuel © 2021 All rights received.
         </p>
-        <a class="button" href="">Download CV</a>
+        <a class="project-button" href="">Download CV</a>
     </footer>
 </body>
 </html>
