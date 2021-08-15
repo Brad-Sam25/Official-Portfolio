@@ -145,6 +145,10 @@ nav li {
     margin-left: 40px;
 }
 
+.project-title img {
+    
+}
+
 .project-button {
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
@@ -161,7 +165,7 @@ nav li {
 
 .skills-list {
     font-family: 'Bebas Neue', cursive;
-    margin: 0px 20px 0px 200px;
+    margin: 0px 20px 0px 230px;
     color: #c0c4cf;
     display: flex;
     flex-direction: row;
@@ -190,6 +194,7 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 190px;
     flex-direction: column;
 }
 
