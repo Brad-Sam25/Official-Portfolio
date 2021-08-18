@@ -125,6 +125,7 @@ nav li {
     font-family: 'Bebas Neue', cursive;
     padding-left: 40px;
     padding-right: 90px;
+    font-size: 25px;
 }
 
 .project-container {
@@ -143,10 +144,6 @@ nav li {
     font-size: 55px;
     color: #c0c4cf;
     margin-left: 40px;
-}
-
-.project-title img {
-    
 }
 
 .project-button {
