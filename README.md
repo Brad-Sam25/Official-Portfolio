@@ -10,7 +10,6 @@ You can view my portfolio at
 &nbsp;
 
 ## My Backstory 
----
 
 Prior to my career change into the tech sphere (web and software development), I worked in law firm as a legal assistant with aspirations of eventually becoming a real estate or patent attorney. Our particular firm used a closing software named Qualia and after close contact and numerous requests for new features with their team, I found myself gravitating more towards the technological side of our process.
 
