@@ -4,7 +4,7 @@ This personal portfolio website exhibits my recent projects, technical skills, r
 
 &nbsp;
 
-You can view my portfolio at
+You can view my portfolio at https://brad-sam25.github.io/Official-Portfolio/
 
 
 &nbsp;
