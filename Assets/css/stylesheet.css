@@ -223,6 +223,7 @@ label {
     width: 75%;
     margin-bottom: 3rem;
     padding: 1.5rem;
+    border: 2px solid #ac06fa ;
 }
 
 .contact-submit {
