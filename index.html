@@ -30,6 +30,9 @@
             <li>
                 <a href="#contact" class="nav-buttons">Contact</a>
             </li>
+            <li>
+                <a href="./Assets/docs/current-resume.pdf" download="current-resume" class="nav-buttons">Resume</a>
+            </li>
         </ul>
         <section class="socials-container">
             <ul>
@@ -176,29 +179,27 @@
                 Contact
             </h2>
         </section>
-        <section class="contact-form ">
-            <form action="https://formsubmit.co/bradsamuel97@gmail.com">
+        <section >
+            <form action="https://formsubmit.co/bradsamuel97@gmail.com" method="POST" class="contact-form ">
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Please enter your  first name...">
+                <input type="text" id="fname" name="firstname" placeholder="Please enter your  first name..." class="contact-fields">
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Please enter your last name...">
+                <input type="text" id="lname" name="lastname" placeholder="Please enter your last name..." class="contact-fields">
 
                 <label for="email">Email</label>
-                <input type="text" name="email"placeholder="Please enter your email..." required>
+                <input type="text" name="email"placeholder="Please enter your email..." class="contact-fields" required>
 
                 <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Ask me anything, I promise I don't bite..." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Ask me anything, I promise I don't bite..." style="height:200px" class="contact-fields"></textarea>
 
-                <input type="submit" value="Submit">
+                <button type="submit" class="contact-submit">Submit</button>
             </form>
         </section>
     </main>
     <footer class="right-side">
-        <a class="project-button" href="./Assets/docs/Updated Official Resume.docx.pdf" download="current_resume">Download Resume</a>
-        <br />
-        <p>
+        <p class="footer-text">
             Copyright Brad Samuel © 2021 All rights received.
         </p>
     </footer>

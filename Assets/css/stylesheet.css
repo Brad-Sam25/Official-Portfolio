@@ -208,17 +208,25 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 190px;
+    margin-left: 50px;
     flex-direction: column;
 }
 
 label {
     font-family: 'Bebas Neue', cursive;
     color:#c0c4cf;
+    font-size: 1.7rem;
+    width: 75%;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
+.contact-fields {
+    width: 75%;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    border: 2px solid #ac06fa ;
+}
+
+.contact-submit {
     padding: 20px; 
     border: 2px solid #ac06fa;
     border-radius: 4px;
@@ -229,7 +237,7 @@ input[type=text], select, textarea {
 }
 
 
-input[type=submit] {
+.contact-submit {
     background-color: #ac06fa;
     color: white;
     padding: 12px 20px;
@@ -238,18 +246,13 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+.contact-submit:hover {
     background-color: #6a0997;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.footer-text {
+    margin: 200px 0px 7px 450px;
     color: #c0c4cf ;
-    margin-top: 50px;
-    margin-bottom: 7px;
     font-family: 'Bebas Neue', cursive;
 }
 
